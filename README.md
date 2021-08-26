@@ -16,3 +16,12 @@ Następnie w wierszu poleceń należy wpisać nazwę języka oraz nazwę pliku 
 Kod źródłowy można przeczytać otwierając plik `drzewo.py`, a efekt uruchomienia programu można zaobserwować na poniższym GIFie.
 
 ![drzewo.gif](drzewo.gif)
+
+# O co w tym chodzi?
+Powyższe programy do rysowania geometrycznych kształtów używają **funkcji rekurencyjnej**. Podobne funkcje używane są do generowania tzw. fraktali, czyli samopodobnych wzorów. Pomyśl o liściu paproci - każda jej gałązka jest podobna do całego liścia. Podobnie jest z drzewem - każda gałąź przypomina małe drzewo.
+
+Przykładowe filmy przedstawiające ręczne narysowane oraz komputerowo wygenerowane fraktale:
+
+* [Rysowanie drzewa](https://www.youtube.com/watch?v=9UtdjVWSluo)
+* [Generowanie 2-wymiarowego drzewa](https://www.youtube.com/watch?v=Ec8Q1q9cbbo)
+* [Fraktal 3-wymiarowy](https://www.youtube.com/watch?v=zVMYaDv49jo)
