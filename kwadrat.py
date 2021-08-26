@@ -5,7 +5,7 @@ import time
 #################################
 # przepis na rysowanie kwadratu #
 #################################
-def kwadrat(krok):
+def kwadrat(krok = 1):
     right(90)      # obróć się na rogu kwadratu o 90 stopni
     forward(100)   # narysuj bok o długości 100 pikseli
 
@@ -19,8 +19,8 @@ def kwadrat(krok):
 # wykorzystanie przepisu #
 ##########################
 
-# narysuj kwadrat zaczynając od pierwszego kroku
-kwadrat(1)
+# narysuj kwadrat
+kwadrat()
 
 # zaczekaj 10 sekund zanim obraz zgaśnie
 time.sleep(10)

@@ -5,7 +5,7 @@ import time
 ###############################
 # przepis na rysowanie drzewa #
 ###############################
-def drzewo(dlugosc, krok):
+def drzewo(dlugosc, krok = 1):
     # warunek zakończenia rekurencji po 8 krokach
     if krok == 8:
         return
@@ -42,8 +42,8 @@ left(90)
 backward(100)
 
 # rysowanie wg przepisu na drzewo
-# zaczynając od pnia długości 100 i pierwszego kroku
-drzewo(100, 1)
+# zaczynając od pnia długości 100 pikseli
+drzewo(100)
 
 # zaczekaj 10 sekund zanim obraz zgaśnie
 time.sleep(10)
